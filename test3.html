@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <thead>
+                <tr>
+                    <td>
+                        <h1>Item Management</h1>
+                    </td>
+                </tr>
+            </thead>
+        <tbody>
+            <form action="">
+
+                <tr>
+                    <!-- item code start -->
+                    <td>
+                        <label for="inputItemCode">
+                            Item Code:
+                        </label>
+                        <br>
+                        <input type="text" id="txtItemCode" placeholder="Enter Item Code" required><br>
+                    </td>
+                    <!-- item code end -->
+                    <!-- item brand start -->
+                    <td>
+                        <label for="inputBrand">
+    
+                            Brand:
+                        </label>
+                        <br>
+                        <select name="" id="inputBrand">
+                            <option value="" selected disabled>Select Brand</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br>
+                    </td>
+                    <!-- item brand end -->
+                </tr>
+                <tr>
+                    <!-- item category start -->
+                    <td>
+    
+                        <label for="inputCategory">Category</label><br>
+                        :<select name="" id="selectCategory">
+                            <option value="" selected disabled>Select Category</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br>
+                    </td>
+                    <!-- item category end -->
+                    <!-- item sub category start -->
+                    <td>
+                        <label for="inputSubCategory">Sub Category</label><br>
+                        :<select name="" id="selectSubCategory">
+                            <option value="" selected disabled>Select Sub Category</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br>
+                    </td>
+                    <!-- item sub category end -->
+    
+    
+    
+                </tr>
+                <tr>
+                    <!-- item name start -->
+                    <td>
+                        <label for="inputItemName">Item Name</label><br>
+    
+    
+                    </td>
+                    <td>
+                        :<input type="text" id="inputItemName" placeholder="Enter Item Name">
+                    </td>
+                    <!-- item name end -->
+                </tr>
+                <tr>
+                    <!-- item purchase price start -->
+                    <td>
+                        <label for="inputPurchasePrice">Purchase Price</label><br>
+                        <input type="number" id="inputPurchaceName" placeholder="Enter Purchace Price">
+    
+                    </td>
+                    <td>
+                        <label for="inputSalesPrice">Sales Price</label><br>
+                        <input type="number" id="inputSalesPrice" placeholder="Enter Sales Price"><br>
+                    </td>
+                    <!-- item purchase price end -->
+                </tr>
+                <tr>
+                    <!-- item discounted ratio start -->
+                    <td>
+                        <label for="inputDiscouted">Discounted Ratio</label><br>
+                        <input type="radio" name="discount" id="inputDis1"><label for="inputDis1">0</label>
+                        <input type="radio" name="discount" id="inputDis2"><label for="inputDis2">5</label>
+                        <input type="radio" name="discount" id="inputDis3"><label for="inputDis3">10</label>
+                    </td>
+                    <!-- item discounted ratio end -->
+                    <!-- item note start -->
+                    <td>
+                        <label for="inputNote">Note</label><br>
+                        <textarea name="" id="inputNote" cols="20" rows="2"></textarea>
+                    </td>
+                    <!-- item note end -->
+                </tr>
+                <tr>
+                    <!-- date start -->
+                    <td>
+                        <label for="inputDate">Added DAte</label>
+                        <input type="date" name="" id="inputDate">
+                    </td>
+                    <!-- date end -->
+                    <!-- button start -->
+                    <td>
+                        <button>Clear</button>
+                        <button>Update</button>
+                        <button>Add</button>
+                    </td>
+                </tr>
+            </form>
+        </tbody>
+        </thead>
+    </table>
+</body>
+
+</html>
